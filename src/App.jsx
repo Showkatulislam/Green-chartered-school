@@ -1,15 +1,14 @@
 import React from 'react';
-import Header from './components/Header';
-import HeroSlider from './components/Hero';
-import AboutSchool from './components/AboutUs';
+import { Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import GradeCalculate from './pages/GradeCalculate';
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <HeroSlider />
-      <AboutSchool/>
-   </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/grade" element={<GradeCalculate />} />
+    </Routes>
   );
 };
 

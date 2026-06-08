@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import banner1 from '../assets/image.png'
+import banner2 from '../assets/banner1.jpeg'
+
 const slides = [
     {
         image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?utm_source=chatgpt.com",
@@ -12,7 +14,7 @@ const slides = [
         desc: "Digital system for modern education and tracking progress.",
     },
     {
-        image: banner1,
+        image: banner2,
         title: "Track Student Performance",
         desc: "Generate results and reports instantly.",
     },

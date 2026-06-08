@@ -31,6 +31,7 @@ const Header = () => {
                     <a href="#" className="hover:text-gray-200">Students</a>
                     <a href="#" className="hover:text-gray-200">Results</a>
                     <a href="#" className="hover:text-gray-200">Teachers</a>
+                    <a href="/grade" className="block hover:text-gray-300">Grade calculate</a>
                 </nav>
 
                 {/* Mobile Button */}
@@ -49,6 +50,7 @@ const Header = () => {
                     <a href="#" className="block hover:text-gray-300">Students</a>
                     <a href="#" className="block hover:text-gray-300">Results</a>
                     <a href="#" className="block hover:text-gray-300">Teachers</a>
+                    <a href="/grade" className="block hover:text-gray-300">Grade calculate</a>
                 </div>
             )}
         </header>
