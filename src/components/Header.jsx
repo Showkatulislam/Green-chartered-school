@@ -14,7 +14,14 @@ const Header = () => {
                         alt="School Logo"
                         className="h-10 w-10 rounded-full object-cover"
                     />
-                    <h1 className="text-xl font-bold">Green Chartered School and Collage</h1>
+                    <h1 className="text-xl font-bold">
+                        <span className="hidden lg:inline">
+                            Green Chartered School and College
+                        </span>
+                        <span className="lg:hidden">
+                            GCSC
+                        </span>
+                    </h1>
                 </div>
 
 
